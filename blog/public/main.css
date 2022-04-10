@@ -17,6 +17,13 @@ header {
  padding: 0 20px;
 }
 
+ul.alert {
+ padding: 15px 15px 15px 15px;
+ border-radius: 4px;
+ background: #f8d6d9;
+ color: #721c24;
+}
+
 .article-item {
  padding: 20px 0;
  border-bottom: 1px solid #ddd;
@@ -28,16 +35,21 @@ header {
  font-weight: bold;
 }
 
+.article-info {
+ font-size: .8rem;
+ color: #777;
+}
+
+.article-body {
+ margin: 1rem 0;
+ padding: 1rem 0;
+ border-top: 1px dotted #ddd;
+ border-bottom: 1px dotted #ddd;
+}
+
 footer {
  padding: 20px;
  text-align: center;
  font-size: .9rem;
  color: #777;
-}
-
-ul.alert {
- padding: 15px 15px 15px 15px;
- border-radius: 4px;
- background: #f8d6d9;
- color: #721c24;
 }
