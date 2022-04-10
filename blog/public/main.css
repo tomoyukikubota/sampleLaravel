@@ -47,6 +47,11 @@ ul.alert {
  border-bottom: 1px dotted #ddd;
 }
 
+.article-control {
+ display: flex;
+ justify-content: space-between;
+}
+
 footer {
  padding: 20px;
  text-align: center;
